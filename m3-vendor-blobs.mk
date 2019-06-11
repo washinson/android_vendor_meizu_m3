@@ -625,6 +625,8 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3/proprietary/bin/aee_archive:system/bin/aee_archive \
  vendor/meizu/m3/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/meizu/m3/proprietary/bin/geomagneticd:system/bin/geomagneticd \
+ vendor/meizu/m3/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+ vendor/meizu/m3/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
  vendor/meizu/m3/proprietary/vendor/lib/hw/bluetooth.blueangel.so:system/vendor/lib/hw/bluetooth.blueangel.so \
  vendor/meizu/m3/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
  vendor/meizu/m3/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -636,4 +638,28 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
  vendor/meizu/m3/proprietary/xbin/MPED:system/xbin/MPED \
  vendor/meizu/m3/proprietary/xbin/mnld:system/xbin/mnld \
- vendor/meizu/m3/proprietary/xbin/BGW:system/xbin/BGW
+ vendor/meizu/m3/proprietary/xbin/BGW:system/xbin/BGW \
+ vendor/meizu/m3/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
+ vendor/meizu/m3/proprietary/lib/libstagefright_soft_ffmpegadec.so:system/lib/libstagefright_soft_ffmpegadec.so \
+ vendor/meizu/m3/proprietary/lib/libstagefright_soft_ffmpegvdec.so:system/lib/libstagefright_soft_ffmpegvdec.so \
+ vendor/meizu/m3/proprietary/lib64/libstagefright_omx.so:system/lib64/libstagefright_omx.so \
+ vendor/meizu/m3/proprietary/lib64/libstagefright_soft_ffmpegadec.so:system/lib64/libstagefright_soft_ffmpegadec.so \
+ vendor/meizu/m3/proprietary/lib64/libstagefright_soft_ffmpegvdec.so:system/lib64/libstagefright_soft_ffmpegvdec.so \
+ vendor/meizu/m3/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P65_2016_09_07_13_02_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P65_2016_09_07_13_02_1_ulwctg_n \
+ vendor/meizu/m3/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P65_2016_09_09_09_49_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P65_2016_09_09_09_49_1_ulwctg_n \
+ vendor/meizu/m3/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P65_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P65_1_ulwctg_n.EDB \
+ vendor/meizu/m3/proprietary/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P34_3_3g_n.EDB:system/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P34_3_3g_n.EDB \
+ vendor/meizu/m3/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P65_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P65_1_ulwctg_n.EDB \
+ vendor/meizu/m3/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat \
+ vendor/meizu/m3/proprietary/bin/volte_ua:system/bin/volte_ua \
+ vendor/meizu/m3/proprietary/bin/volte_stack:system/bin/volte_stack \
+ vendor/meizu/m3/proprietary/bin/volte_imcb:system/bin/volte_imcb \
+ vendor/meizu/m3/proprietary/bin/viarild:system/bin/viarild \
+ vendor/meizu/m3/proprietary/lib/libviatelecom-withuim-ril.so:system/lib/libviatelecom-withuim-ril.so \
+ vendor/meizu/m3/proprietary/etc/ppp/init.pppoe-pppd:system/etc/ppp/init.pppoe-pppd \
+ vendor/meizu/m3/proprietary/etc/ppp/ip-up-cdma:system/etc/ppp/ip-up-cdma \
+ vendor/meizu/m3/proprietary/etc/ppp/ip-up-pppoe:system/etc/ppp/ip-up-pppoe \
+ vendor/meizu/m3/proprietary/etc/ppp/ip-up-vpn:system/etc/ppp/ip-up-vpn \
+ vendor/meizu/m3/proprietary/etc/ppp/ipv6-up-cdma:system/etc/ppp/ipv6-up-cdma \
+ vendor/meizu/m3/proprietary/etc/ppp/link-down-cdma:system/etc/ppp/link-down-cdma \
+ vendor/meizu/m3/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod
